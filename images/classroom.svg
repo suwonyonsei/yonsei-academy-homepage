@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+  <rect width="900" height="650" rx="36" fill="#f3efe6"/>
+  <rect x="90" y="88" width="720" height="430" rx="28" fill="#ffffff" stroke="#ded8cc" stroke-width="6"/>
+  <rect x="150" y="150" width="600" height="80" rx="18" fill="#24211d"/>
+  <text x="450" y="202" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#f1d49f">Study Routine</text>
+  <rect x="150" y="300" width="180" height="108" rx="22" fill="#f7f1e6"/>
+  <rect x="360" y="300" width="180" height="108" rx="22" fill="#eadbc3"/>
+  <rect x="570" y="300" width="180" height="108" rx="22" fill="#d6bd93"/>
+  <text x="240" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#24211d">Learn</text>
+  <text x="450" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#24211d">Repeat</text>
+  <text x="660" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#24211d">Review</text>
+  <text x="450" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#24211d">맞춤형 학습 관리</text>
+</svg>

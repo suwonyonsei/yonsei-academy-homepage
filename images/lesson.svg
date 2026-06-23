@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+  <rect width="900" height="650" rx="36" fill="#fbfaf6"/>
+  <circle cx="260" cy="250" r="76" fill="#d6bd93"/>
+  <circle cx="450" cy="220" r="88" fill="#24211d"/>
+  <circle cx="640" cy="260" r="76" fill="#b58a45"/>
+  <path d="M210 392h480" stroke="#ded8cc" stroke-width="20" stroke-linecap="round"/>
+  <path d="M250 392h260" stroke="#8a652d" stroke-width="20" stroke-linecap="round"/>
+  <rect x="180" y="430" width="540" height="92" rx="28" fill="#ffffff" stroke="#ded8cc" stroke-width="4"/>
+  <text x="450" y="488" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#24211d">Speed Listening</text>
+</svg>
