@@ -88,6 +88,10 @@
   transform:rotate(-2deg);
 }
 
+.hero-collage .bottom img{
+  object-position:right center;
+}
+
 .collage-badge{
   position:absolute;
   left:0;
