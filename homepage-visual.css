@@ -92,6 +92,38 @@
   object-position:right center;
 }
 
+.privacy-scene{
+  position:relative;
+}
+
+.privacy-mask{
+  position:absolute;
+  z-index:3;
+  width:9%;
+  aspect-ratio:1;
+  border-radius:18%;
+  background:
+    linear-gradient(45deg,rgba(40,55,75,.32) 25%,rgba(245,230,210,.38) 25% 50%,rgba(40,55,75,.32) 50% 75%,rgba(245,230,210,.38) 75%);
+  background-size:10px 10px;
+  backdrop-filter:blur(8px);
+  box-shadow:0 0 0 2px rgba(255,255,255,.16);
+}
+
+.mask-teacher{left:39%;top:25%;width:13%}
+.mask-teacher-back{left:52%;top:23%;width:10%}
+.mask-child-back{left:62%;top:32%;width:8.5%}
+.mask-child-front{left:52%;top:54%;width:11%}
+.mask-child-right{left:85%;top:56%;width:9%}
+.mask-child-bottom{left:72%;top:76%;width:11%}
+
+.activity-photo.privacy-scene .privacy-mask{
+  z-index:2;
+}
+
+.activity-photo.privacy-scene figcaption{
+  z-index:4;
+}
+
 .collage-badge{
   position:absolute;
   left:0;
