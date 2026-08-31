@@ -10,14 +10,17 @@
 
 .about-content{
   display:grid;
+  gap:34px;
+}
+
+.leader-message{
+  display:grid;
   grid-template-columns:320px minmax(0,1fr);
   gap:28px;
   align-items:start;
 }
 
 .director-portrait{
-  position:sticky;
-  top:104px;
   margin:0;
   overflow:hidden;
   border-radius:28px;
@@ -116,8 +119,7 @@
 @media(max-width:620px){
   .about-heading{margin-bottom:30px}
   .about-heading>p:last-child{font-size:16px}
-  .about-content{grid-template-columns:1fr}
-  .director-portrait{position:relative;top:auto}
+  .leader-message{grid-template-columns:1fr}
   .director-portrait img{aspect-ratio:1/1.05}
   .director-message{padding:36px 24px}
   .director-message p{font-size:15px;line-height:1.85}
