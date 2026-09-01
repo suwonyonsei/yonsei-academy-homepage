@@ -549,3 +549,8 @@
 .teacher-photo img[src$="/sunny.jpg"]{
   object-position:center 42%;
 }
+
+.teacher-photo img[src$="/jinny.jpg"],
+.teacher-photo img[src$="/grace.jpg"]{
+  object-position:center 55%;
+}
