@@ -538,3 +538,14 @@
     width:100%;
   }
 }
+
+.teacher-photo img[src$="/jinny.jpg"],
+.teacher-photo img[src$="/julia.jpg"],
+.teacher-photo img[src$="/jamie.jpg"],
+.teacher-photo img[src$="/ebony.jpg"],
+.teacher-photo img[src$="/hailey.jpg"],
+.teacher-photo img[src$="/grace.jpg"],
+.teacher-photo img[src$="/emily.jpg"],
+.teacher-photo img[src$="/sunny.jpg"]{
+  object-position:center 42%;
+}
