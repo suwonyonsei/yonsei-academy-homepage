@@ -514,3 +514,27 @@
     right:14px;
   }
 }
+
+.teacher-grid.balanced-grid{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  max-width:900px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.teacher-grid.balanced-grid > .teacher-card:last-child:nth-child(odd){
+  grid-column:1 / -1;
+  width:min(100%,439px);
+  justify-self:center;
+}
+
+@media (max-width:720px){
+  .teacher-grid.balanced-grid{
+    grid-template-columns:1fr;
+  }
+
+  .teacher-grid.balanced-grid > .teacher-card:last-child:nth-child(odd){
+    grid-column:auto;
+    width:100%;
+  }
+}
