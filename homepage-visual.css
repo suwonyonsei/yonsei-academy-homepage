@@ -554,3 +554,23 @@
 .teacher-photo img[src$="/grace.jpg"]{
   object-position:center 55%;
 }
+
+/* Keep the hero focused on one clean, unobstructed classroom photo. */
+.hero-collage.single-photo .main{
+  inset:18px;
+  transform:rotate(-.4deg);
+}
+
+.hero-collage.single-photo .main img{
+  object-position:center 42%;
+}
+
+@media(max-width:620px){
+  .hero-collage.single-photo{
+    min-height:420px;
+  }
+
+  .hero-collage.single-photo .main{
+    inset:12px 0 42px;
+  }
+}
