@@ -1,0 +1,6 @@
+.market-day-card{grid-row:span 2;min-height:0;overflow:hidden;display:flex;flex-direction:column;border-radius:20px;background:#fffaf0;box-shadow:0 18px 40px rgba(21,56,92,.12)}
+.market-day-card h3{flex:none;margin:0;padding:12px 16px;color:#243d59;font-size:21px;line-height:1.4}
+.market-day-photos{flex:1;min-height:0;display:grid;grid-template-rows:repeat(2,minmax(0,1fr));gap:8px;padding:0 10px 10px}
+.market-day-photos img{width:100%;height:100%;min-height:0;object-fit:contain;border-radius:12px}
+@media(max-width:960px){.market-day-card{grid-column:1/-1;grid-row:span 2}.market-day-photos{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:minmax(0,1fr)}}
+@media(max-width:620px){.market-day-photos{grid-template-columns:1fr;grid-template-rows:repeat(2,minmax(0,1fr))}}
