@@ -1,0 +1,8 @@
+.trick-or-treat{display:grid;grid-template-columns:minmax(180px,.7fr) minmax(0,2fr);gap:28px;align-items:center;margin:32px 0 0;padding:28px;border-radius:24px;background:#fff5e7}
+.trick-or-treat h3{margin:0 0 12px;color:#243d59;font-size:28px;line-height:1.35}
+.trick-or-treat p{margin:0;color:#53667b;font-size:15px;line-height:1.85;word-break:keep-all}
+.trick-or-treat-photos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:center}
+.trick-or-treat-photos figure{margin:0;overflow:hidden;border-radius:16px}
+.trick-or-treat-photos img{display:block;width:100%;height:auto}
+@media(max-width:960px){.trick-or-treat{grid-template-columns:1fr}.trick-or-treat-copy{text-align:center}}
+@media(max-width:620px){.trick-or-treat{padding:24px 16px;gap:20px}.trick-or-treat h3{font-size:25px}.trick-or-treat-photos{grid-template-columns:1fr}}
