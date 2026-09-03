@@ -1,0 +1,5 @@
+.costume-contest{margin:36px 0;padding:28px;border-radius:24px;background:#f3effa}
+.costume-contest h3{margin:0 0 22px;text-align:center;color:#243d59;font-size:26px;line-height:1.5}
+.costume-contest figure{max-width:660px;margin:0 auto;overflow:hidden;border-radius:18px}
+.costume-contest img{display:block;width:100%;height:auto}
+@media(max-width:620px){.costume-contest{padding:22px 14px}.costume-contest h3{font-size:23px}}
