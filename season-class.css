@@ -1,0 +1,5 @@
+.activity-showcase .season-class-photo{grid-row:span 2;display:flex;flex-direction:column;background:#eef4f8}
+.activity-showcase .season-class-photo img{flex:1;min-height:0;width:100%;height:0;object-fit:contain;transform:none}
+.activity-showcase .season-class-photo:after{display:none}
+.activity-showcase .season-class-photo figcaption{position:static;flex:none;padding:14px 18px;background:#eef4f8;color:#243d59}
+.activity-showcase .season-class-photo figcaption span{color:#53667b}
